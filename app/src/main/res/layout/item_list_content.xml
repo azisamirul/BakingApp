@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/cardview_default_radius"
+    card_view:cardElevation="@dimen/cardview_default_elevation">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_list"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_cake"
+            tools:layout_conversion_absoluteX="16dp"
+            tools:layout_conversion_absoluteY="16dp"
+            tools:layout_conversion_absoluteWidth="100dp"
+            tools:layout_conversion_absoluteHeight="100dp" />
+
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/text_list_size"
+            android:textStyle="bold"
+            tools:text="Nutella Pie"
+            card_view:layout_constraintLeft_toRightOf="@+id/img_list"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/content_servings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="@dimen/text_list_size"
+            android:textStyle="bold"
+            tools:text="8 ingredints"
+            tools:layout_conversion_absoluteX="280dp"
+            tools:layout_conversion_absoluteY="58dp"
+            tools:layout_conversion_absoluteWidth="117dp"
+            tools:layout_conversion_absoluteHeight="26dp"
+            card_view:layout_constraintLeft_toRightOf="@+id/img_list"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            card_view:layout_constraintTop_toBottomOf="@+id/content" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

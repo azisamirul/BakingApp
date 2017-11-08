@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Previous</string>
+    <string name="tv_step">Steps</string>
+    <string name="msg_first_step">You\'re on first step!</string>
+    <string name="msg_last_step">You\'re on last step!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="total_servings">%1$d servings</string>
+<string name="widget_lists">%1$s %2$s %3$s</string>
+    <string name="error_connection_msg">No internet connection!</string>
+    <string name="btn_add_to_widget">Add to Widget</string>
+</resources>
